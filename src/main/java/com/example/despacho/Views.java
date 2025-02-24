@@ -9,6 +9,7 @@ import lombok.experimental.FieldDefaults;
 @AllArgsConstructor
 @FieldDefaults(makeFinal = true, level = AccessLevel.PRIVATE)
 public enum Views {
+    Agregar("agregar-view.fxml"),
     Inicio("main-view.fxml");
-    String FileNames;
+    String FileName;
 }
